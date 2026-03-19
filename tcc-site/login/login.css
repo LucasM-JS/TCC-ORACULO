@@ -81,10 +81,11 @@ body {
     color: rgba(57, 67, 112, 0.8);
     position: relative;
 }
-#senha::-ms-reveal
+#senha::-ms-reveal,
 #senha::-ms-clear{
     display: none;
 }
+
 #toggle {
     z-index: 2;
 
