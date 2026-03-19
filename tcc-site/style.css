@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: border-box;
+}
+
+body{
+    display: flex;
+    background-color: #394370;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main{
+    display: flex;
+
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#button{
+    display: flex;
+    width: 113px;
+    height: 38px;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 18px;
+    color: #394370;
+    margin-top: 12px;
+}
+
+#textBox{
+    
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    margin-top: 600px;
+    flex-direction: column;
+}
+#p2 {
+    display: flex;
+    justify-content: center;
+}
