@@ -58,6 +58,8 @@ main{
     color: #394370;
     text-align: center;
     justify-content: center;
+    position: relative;
+    bottom: 5px;
 }
 
 #textBox{
