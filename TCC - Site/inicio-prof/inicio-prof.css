@@ -7,13 +7,20 @@
 
 body{
     background-color: rgb(209, 209, 209);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#titulo{
+    position: relative;
+    width: 171px;
+    height: 36;
+    left: 22.8px;
+    top: 11px;
 }
 
 .linhas{
     background-color:aliceblue;
-    width: 240px;
+    width: 222px;
     height: 2px;
 }
 
@@ -25,23 +32,18 @@ body{
 #linha2{
     position: absolute;
     top: 71px;
+    height: 2.99px;
 }
 
 #linha3, #linha4, #linha5, #linha6, #linha7, #linha8{
     margin-top: 15px;
 }
 
-#oraculo{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
-    font-weight: bolder;
-    margin-right: 15px;
-}
 
 ul{
     background-color: rgb(57, 67, 112);
-    width: 240px;
-    height: 740px;
+    width: 222px;
+    height: 718px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -59,9 +61,10 @@ li, a{
 
 #menu-lateral{
     position: absolute;
-    top: 10%;
+    top: 69px;
     display: flex;
     flex-direction: column;
+    font-size: 20px; 
 }
 
 #foto{
