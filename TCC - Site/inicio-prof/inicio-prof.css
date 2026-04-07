@@ -31,7 +31,7 @@ body{
 
 #linha2{
     position: absolute;
-    top: 71px;
+    top: 69px;
     height: 2.99px;
 }
 
@@ -39,11 +39,31 @@ body{
     margin-top: 15px;
 }
 
+#vertwhite {
+    background-color: white;
+    width: 4px;
+    height: 718px;
+    left: 222px;
+    bottom: 37px;
+}
+#vertblue {
+    background-color: rgb(57, 67, 112);
+    width: 4px;
+    height: 718px;
+    left: 226px;
+    bottom: 755px;
+}
+#circle {
+    position: absolute;
+    left: 234px;
+    bottom: 1463px;
+}
+
 
 ul{
     background-color: rgb(57, 67, 112);
     width: 222px;
-    height: 718px;
+    height: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -90,26 +110,30 @@ li, a{
     flex-direction: row;
     margin-bottom: 15px;
     justify-content: center;
+    position: absolute;
+    top: 658px;
 }
 
-#icone-logout{
+#logout{
     position: absolute;
     bottom: 1%;
     left: 1%;
-    height: 25px;
+    height: 22px;
+    width: 23.4px;
 }
 
 #nome-sair{
     position: absolute;
-    bottom: 1%;
-    left: 10%;
+    bottom: 2px;
+    left: 18px;
+    font-size: 18px;
 }
 
-#icone-engrenagem{
+#gear{
     position: absolute;
     bottom: 1%;
-    left: 85%;
-    height: 25px;
+    left: 181px;
+    height: 18px;
 }
 
 #nome{
