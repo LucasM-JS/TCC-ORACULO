@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #394370;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+#recCodigo{
+    display: flex;
+    width: 355px;
+    height: 40px;
+    border-radius: 4px;
+    border-style: none;
+    text-align: center;
+}
+
+#botao{
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    border-style: none;
+}
