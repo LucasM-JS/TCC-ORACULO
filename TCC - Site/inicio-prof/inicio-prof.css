@@ -6,8 +6,8 @@
 }
 
 body{
-    background-color: rgb(255, 187, 219);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FFFFFF;
+    font-family: Cabin;
 }
 
 #titulo{
@@ -90,6 +90,10 @@ li, a{
     display: flex;
     flex-direction: column;
     font-size: 20px; 
+}
+
+a{
+    font-size: 20px;
 }
 
 /*------------------------------------------------------------------*/
@@ -202,13 +206,83 @@ li, a{
 
 /*------------------------------------------------------------------*/
 
+#avisoslane {
+    height: 45px;
+    
+}
+#highlight5 {
+    height: 20px;
+    width: 3px;
+    bottom: 14px;
+    left: 45px;
+}
+#avisos {
+    left: 45px;
+    bottom: 46px;
+}
+#GRAH5 {
+    width: 200px;
+}
+
+#warning {
+    height: 27.82px;
+    width: 37px;
+    top: 8px;
+    left: 0px;
+}
+
+/*------------------------------------------------------------------*/
+
+#horarioslane {
+    height: 45px;
+    
+}
+#highlight6 {
+    height: 20px;
+    width: 3px;
+    bottom: 14px;
+    left: 45px;
+}
+#horarios {
+    left: 45px;
+    bottom: 46px;
+}
+#GRAH6 {
+    width: 200px;
+}
+
+#clock {
+    height: 27.82px;
+    width: 37px;
+    top: 8px;
+    left: 0px;
+}
+
+/*------------------------------------------------------------------*/
+
 #foto{
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(57, 67, 112);
     width: 50px;
     height: 50px;
     border-radius: 100%;
     margin-right: 10px;
 }
+#nome{
+    color: rgb(39, 45, 77);
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    font-family: Cabin;
+}
+#username{
+    font-size: 16px;
+    font-weight: 500;
+}
+#usertype{
+    font-size: 16px;
+    font-weight: 500;
+}
+
 
 #usuario{
     display:flex;
@@ -250,12 +324,6 @@ li, a{
     bottom: 1%;
     left: 181px;
     height: 18px;
-}
-
-#nome{
-    color: rgb(39, 45, 77);
-    display: flex;
-    flex-direction: column;
 }
 
 #sino-notificacao{
