@@ -8,8 +8,11 @@
 body{
     background-color: #FFFFFF;
     font-family: Cabin;
+    height: 768px;
+    display: flex;
 }
 
+/*------------------------------------------------------------------*/
 #titulo{
     position: relative;
     width: 171px;
@@ -41,34 +44,35 @@ body{
 
 #vertical {
     position: absolute;
-    width: 222px;
-    height: 767px;
+    width: 8px;
+    height: 768px;
+    background-color: greenyellow;
+    left: 100%;
+    z-index: 2;
 }
 #vertwhite {
     background-color: white;
     width: 4px;
-    height: 767px;
-    left: 222px;
-    top: 0px;
+    height: 100%;
 }
 #vertblue {
     background-color: rgb(57, 67, 112);
     width: 4px;
-    height: 767px;
-    left: 226px;
-    bottom: 767px;
+    height: 768px;
+    bottom: 100%;
+    left: 50%;
 }
 #circle {
     position: absolute;
-    left: 234px;
-    bottom: 755px;
+    left: 160%;
+    bottom: 98.5%;
 }
 
 
 ul{
     background-color: rgb(57, 67, 112);
-    width: 222px;
-    height: 767px;
+    width: 15.5%;
+    height: 768px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -257,43 +261,100 @@ a{
     top: 8px;
     left: 0px;
 }
-
 /*------------------------------------------------------------------*/
-
+#leftlane{
+    width: 35%;
+    background-color: blue;
+}
+/*------------------------------------------------------------------*/
+#midlane{
+    width: 22%;
+    background-color: magenta;
+}
+/*------------------------------------------------------------------*/
+#rightlane{
+    display: flex;
+    width: 28%;
+    height: 100%;
+}
+/*------------------------------------------------------------------*/
+#usuario{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: absolute;
+    top: 2%;
+    right: 4%;
+}
 #foto{
     background-color: rgb(57, 67, 112);
-    width: 50px;
-    height: 50px;
+    width: 54px;
+    height: 54px;
     border-radius: 100%;
     margin-right: 10px;
 }
 #nome{
     color: rgb(39, 45, 77);
+    height: 50px;
+    width: 150px;
+
+    top: 18px;
+    right: 12px;
+
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
     font-weight: 100;
     font-family: Cabin;
+    font-size: 16px;
 }
 #username{
     font-size: 16px;
     font-weight: 500;
 }
+#dot{
+    height: 5px;
+    width: 5px;
+    top: 7px;
+}
 #usertype{
     font-size: 16px;
     font-weight: 500;
 }
-
-
-#usuario{
-    display:flex;
-    flex-direction: row;
+#highlights{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: 1%;
-    right: 1%;
-    margin-right: 15px;
+
+    top: 15px;
+    left: 136px;
+}
+#namehighlight1{
+    height: 2px;
+    width: 145px;
+}
+#namehighlight2{
+    height: 2px;
+    width: 130px;
+
+    top: 2px;
 }
 
+/*------------------------------------------------------------------*/
+#calendarmain{
+    top: 90px;
+    left: 12%;
+
+    height: 260px;
+}
+#calenbase{
+    width: 319px;
+    height: 260px;
+}
+
+/*------------------------------------------------------------------*/
 #sair{
     display:flex;
     flex-direction: row;
